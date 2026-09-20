@@ -1,0 +1,2 @@
+# Milvus deployment data (etcd / rustfs / milvus bind mounts)
+volumes/
