@@ -1,2 +1,15 @@
 # Milvus deployment data (etcd / rustfs / milvus bind mounts)
 volumes/
+
+# Raw API payloads, chunks and local database stay local (large, regenerable)
+data/*
+!data/kb/
+data/kb/*
+!data/kb/text/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
