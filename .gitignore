@@ -7,8 +7,9 @@ data/*
 data/kb/*
 !data/kb/text/
 
-# Secrets
+# Secrets / local-only
 .env
+MEMORY.md
 
 # Python
 __pycache__/
